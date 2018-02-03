@@ -1,5 +1,6 @@
 package com.binio.didemo;
 
+import com.binio.didemo.controllers.ConstructorInjectedController;
 import com.binio.didemo.controllers.MyController;
 import com.binio.didemo.controllers.PropertyInjectedController;
 import org.springframework.boot.SpringApplication;
@@ -14,6 +15,7 @@ public class Spring5DiApplication {
 		MyController ctl = (MyController) ctx.getBean("myController");
 		ctl.hello();
 		System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
+		System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
 		//SpringApplication.run(Spring5DiApplication.class, args);
 	}
 }
