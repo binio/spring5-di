@@ -1,7 +1,6 @@
 package com.binio.didemo.controllers;
 
-import com.binio.didemo.services.GreetingService;
-import com.binio.didemo.services.GreetingServiceImpl;
+import com.binio.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller
