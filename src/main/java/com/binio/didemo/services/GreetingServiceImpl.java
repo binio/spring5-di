@@ -1,4 +1,4 @@
-package com.binio.services;
+package com.binio.didemo.services;
 
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
 package com.binio.didemo.controllers;
 
-import com.binio.services.GreetingServiceImpl;
+import com.binio.didemo.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.binio.services", "com.binio.didemo.controllers"})
+@ComponentScan(basePackages = {"com.binio.didemo.services", "com.binio.didemo.controllers"})
 public class Spring5DiApplication {
 
 	public static void main(String[] args) {
